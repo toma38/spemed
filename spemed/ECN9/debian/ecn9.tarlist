@@ -1,0 +1,24 @@
+# This file is created by MADDE 'dh_fixperms'.
+# MADDE 'dpkg-deb' uses this file when creating
+# 'data.tar.gz' for debian package ar archive.
+755 root root . ./opt /
+755 root root . ./opt/ECN9 /
+755 root root . ./opt/ECN9/bin /
+755 root root . ./opt/ECN9/bin/ECN9 debian/ecn9/opt/ECN9/bin/ECN9
+755 root root . ./opt/ECN9/qml /
+755 root root . ./opt/ECN9/qml/ECN9 /
+644 root root . ./opt/ECN9/qml/ECN9/MainPage.qml debian/ecn9/opt/ECN9/qml/ECN9/MainPage.qml
+644 root root . ./opt/ECN9/qml/ECN9/main.qml debian/ecn9/opt/ECN9/qml/ECN9/main.qml
+755 root root . ./usr /
+755 root root . ./usr/share /
+755 root root . ./usr/share/applications /
+644 root root . ./usr/share/applications/ECN9_harmattan.desktop debian/ecn9/usr/share/applications/ECN9_harmattan.desktop
+755 root root . ./usr/share/doc /
+755 root root . ./usr/share/doc/ecn9 /
+644 root root . ./usr/share/doc/ecn9/changelog.gz debian/ecn9/usr/share/doc/ecn9/changelog.gz
+644 root root . ./usr/share/doc/ecn9/copyright debian/ecn9/usr/share/doc/ecn9/copyright
+755 root root . ./usr/share/icons /
+755 root root . ./usr/share/icons/hicolor /
+755 root root . ./usr/share/icons/hicolor/80x80 /
+755 root root . ./usr/share/icons/hicolor/80x80/apps /
+644 root root . ./usr/share/icons/hicolor/80x80/apps/ECN980.png debian/ecn9/usr/share/icons/hicolor/80x80/apps/ECN980.png
