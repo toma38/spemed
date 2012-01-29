@@ -24,28 +24,6 @@
       <item>
        <widget class="QLineEdit" name="lineEdit"/>
       </item>
-      <item>
-       <widget class="QComboBox" name="comboBox">
-        <item>
-         <property name="text">
-          <string>dénomination</string>
-         </property>
-         <property name="icon">
-          <iconset resource="gfx/gfx.qrc">
-           <normaloff>:/specialite.png</normaloff>:/specialite.png</iconset>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>dci</string>
-         </property>
-         <property name="icon">
-          <iconset resource="gfx/gfx.qrc">
-           <normaloff>:/dci.png</normaloff>:/dci.png</iconset>
-         </property>
-        </item>
-       </widget>
-      </item>
      </layout>
     </item>
     <item>
@@ -75,7 +53,7 @@
      <x>0</x>
      <y>0</y>
      <width>400</width>
-     <height>18</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuHelp">
