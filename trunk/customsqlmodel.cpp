@@ -9,11 +9,20 @@ QVariant CustomSqlModel::data(const QModelIndex &item, int role) const
 {
 
 
-    if ( role == Qt::DecorationRole)
-    {
 
-        return mIcon;
+    if ( role == Qt::TextColorRole){
+        if (!record(item.row()).value(2).toString().isEmpty())
+          return Qt::black;
+        else return Qt::lightGray;
+
+
     }
+
+    if ( role == Qt::DecorationRole)
+        return mIcon;
+
+
+
 
     return QSqlQueryModel::data(item,role);
 }

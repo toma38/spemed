@@ -8,6 +8,8 @@
 #include "detaildialog.h"
 #include "spedialog.h"
 #include "customsqlmodel.h"
+#include "afssapsdetailwidget.h"
+
 namespace Ui {
 class MainWindow;
 }

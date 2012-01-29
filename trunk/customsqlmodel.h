@@ -3,6 +3,7 @@
 
 #include <QSqlQueryModel>
 #include <QIcon>
+#include <QtSql>
 class CustomSqlModel : public QSqlQueryModel
 {
     Q_OBJECT
