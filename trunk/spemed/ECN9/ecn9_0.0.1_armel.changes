@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 18 Jan 2012 23:42:33 +0100
+Source: ecn9
+Binary: ecn9
+Architecture: armel
+Version: 0.0.1
+Distribution: unstable
+Urgency: low
+Maintainer: unknown <>
+Changed-By: unknown <>
+Description: 
+ ecn9       - <insert up to 60 chars description>
+Changes: 
+ ecn9 (0.0.1) unstable; urgency=low
+ .
+   * Initial Release.
+Checksums-Sha1: 
+ 8d17b868edee70211d208516f1b3e1ab2a8e956a 18448 ecn9_0.0.1_armel.deb
+Checksums-Sha256: 
+ 220b7f374b7f5e49e2c934280547c405ca174b67a746123781b7035191ebeced 18448 ecn9_0.0.1_armel.deb
+Files: 
+ db1c98e391679872a519ea4dd0fb11c7 18448 user/other optional ecn9_0.0.1_armel.deb
+Maemo-Display-Name: ECN9
